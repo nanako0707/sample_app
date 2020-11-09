@@ -16,7 +16,7 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
   config.action_mailer.raise_delivery_errors = true
 
-  config.action_mailer.default_url_options = { host: 'desolate-scrubland-76949.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'new-sample-app0707.herokuapp.com' }
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
